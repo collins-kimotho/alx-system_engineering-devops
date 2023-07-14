@@ -1,0 +1,2 @@
+#!/bi/bash
+cat cat /etc/passwd /etc/hosts
