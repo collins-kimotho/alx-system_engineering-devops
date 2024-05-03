@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # This script provides information about the "School" file.
 
-file="School"
+file="school"
 
 if [ -e "$file" ]; then
-	echo "School file exists"
+	echo "school file exists"
 	
 	if [ -s "$file" ]; then
 		echo "school file is not empty"
