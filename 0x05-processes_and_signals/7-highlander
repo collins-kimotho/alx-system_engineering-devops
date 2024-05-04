@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script reacts to SIGTERM
+
+# Define a handeler for the SIGTERM signal
+trap 'echo "I am invincible!!!"' SIGTERM
+
+# infinite loop
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done

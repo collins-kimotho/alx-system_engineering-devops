@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script stops an infinite process
+
+# Uses the 'pkill' to stop the process
+pkill -f 7-highlander
