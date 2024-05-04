@@ -7,7 +7,7 @@ echo $$ > /var/run/myscript.pid
 # Define handlers for signals
 trap 'echo "I hate the kill command"; exit 1' SIGTERM
 trap 'echo "Y U no love me?!"; exit 1' SIGINT
-trap 'rm /var/run/myscript.pid; echo "Quitting..."; exit 0' SIGQUIT
+trap 'rm /var/run/myscript.pid;'; exit 0' SIGQUIT
 
 # Display a message indefinitely
 while true
