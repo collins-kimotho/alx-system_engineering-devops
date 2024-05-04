@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This scrip kills the processs highlander
+
+# Start by getting the PID of the process
+pid=$(pgrep -f 7-highlander)
+
+# Use kill to stop the process
+kill "$pid"
