@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This scrip stops a process
+
+# Get the PID for the process
+pid=$(pgrep -f 4-to_infinity_and_beyond)
+
+# Use 'kill' to stop the process
+kill "$pid"
