@@ -5,4 +5,4 @@
 pid=$(pgrep -f 7-highlander)
 
 # Use kill to stop the process
-kill "$pid"
+kill -9 "$pid"
