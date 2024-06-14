@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-hbt{2,4}n$
+^hbt{2,4}n$
