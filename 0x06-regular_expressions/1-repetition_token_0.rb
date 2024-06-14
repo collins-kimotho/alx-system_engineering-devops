@@ -1,2 +1,10 @@
 #!/usr/bin/env ruby
-puts ARG[0].scan(/hbt{2,5}n/).join
+
+# Regex implementation for repetitive token
+
+regex = /hbt{2,5}n/
+if ARGV[0] =~ regex
+  puts ARGV[0]
+else
+  puts ''
+end
