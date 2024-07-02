@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # Add SSH configuration for the server
-echo -e "Host your_server_ip\n\tIdentityFile ~/.ssh/school" >> ~/.ssh/config
-# Disable password authentication
-echo -e "PasswordAuthentication no" >> ~/.ssh/config
+Host 100.25.2.14
+	HostName 100.25.2.14
+	User ubuntu
+	IdentityFile ~/.ssh/school
+	PasswordAuthentification no
