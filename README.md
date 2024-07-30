@@ -4,7 +4,6 @@
 * Shell Scripting
 * Linux
 * Ubuntu servers
-* DevOps
 
 ---
 
